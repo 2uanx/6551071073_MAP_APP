@@ -1,0 +1,14 @@
+## Visual Studio & .NET Build Artifacts
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Non-project root assets
+Tài liệu lab 1.pdf
+*.pdf
+*.docx
+/Resources/
