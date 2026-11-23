@@ -232,39 +232,39 @@ BEGIN
 	WHERE MaHD=@MaHD
 END
 GO
-INSERT INTO NhanVien (MaNV,TenNV,NgaySinh,DiaChi, GioiTinh,Luong,ChucVu,CCCD,SDT,Email,"DaXoa") VALUES (N'AD001', N'Demo employee 1', '19900101', N'Demo address 1', N'N/A', 0, N'Admin', N'DEMO-NV-0001', N'DEMO000001', N'employee01@example.invalid', 0);
-INSERT INTO NhanVien (MaNV,TenNV,NgaySinh,DiaChi, GioiTinh,Luong,ChucVu,CCCD,SDT,Email,"DaXoa") VALUES (N'AD002', N'Demo employee 2', '19900101', N'Demo address 2', N'N/A', 0, N'Admin', N'DEMO-NV-0002', N'DEMO000002', N'employee02@example.invalid', 0);
-INSERT INTO NhanVien (MaNV,TenNV,NgaySinh,DiaChi, GioiTinh,Luong,ChucVu,CCCD,SDT,Email,"DaXoa") VALUES (N'AD003', N'Demo employee 3', '19900101', N'Demo address 3', N'N/A', 0, N'Admin', N'DEMO-NV-0003', N'DEMO000003', N'employee03@example.invalid', 0);
-INSERT INTO NhanVien (MaNV,TenNV,NgaySinh,DiaChi, GioiTinh,Luong,ChucVu,CCCD,SDT,Email,"DaXoa") VALUES (N'QL001', N'Demo employee 4', '19900101', N'Demo address 4', N'N/A', 0, N'Manager', N'DEMO-NV-0004', N'DEMO000004', N'employee04@example.invalid', 0);
-INSERT INTO NhanVien (MaNV,TenNV,NgaySinh,DiaChi, GioiTinh,Luong,ChucVu,CCCD,SDT,Email,"DaXoa") VALUES (N'NV001', N'Demo employee 5', '19900101', N'Demo address 5', N'N/A', 0, N'Staff', N'DEMO-NV-0005', N'DEMO000005', N'employee05@example.invalid', 0);
-INSERT INTO NhanVien (MaNV,TenNV,NgaySinh,DiaChi, GioiTinh,Luong,ChucVu,CCCD,SDT,Email,"DaXoa") VALUES (N'NV002', N'Demo employee 6', '19900101', N'Demo address 6', N'N/A', 0, N'Staff', N'DEMO-NV-0006', N'DEMO000006', N'employee06@example.invalid', 0);
-INSERT INTO NhanVien (MaNV,TenNV,NgaySinh,DiaChi, GioiTinh,Luong,ChucVu,CCCD,SDT,Email,"DaXoa") VALUES (N'NV003', N'Demo employee 7', '19900101', N'Demo address 7', N'N/A', 0, N'Staff', N'DEMO-NV-0007', N'DEMO000007', N'employee07@example.invalid', 0);
-INSERT INTO NhanVien (MaNV,TenNV,NgaySinh,DiaChi, GioiTinh,Luong,ChucVu,CCCD,SDT,Email,"DaXoa") VALUES (N'NV004', N'Demo employee 8', '19900101', N'Demo address 8', N'N/A', 0, N'Staff', N'DEMO-NV-0008', N'DEMO000008', N'employee08@example.invalid', 0);
-INSERT INTO NhanVien (MaNV,TenNV,NgaySinh,DiaChi, GioiTinh,Luong,ChucVu,CCCD,SDT,Email,"DaXoa") VALUES (N'NV005', N'Demo employee 9', '19900101', N'Demo address 9', N'N/A', 0, N'Staff', N'DEMO-NV-0009', N'DEMO000009', N'employee09@example.invalid', 0);
-INSERT INTO NhanVien (MaNV,TenNV,NgaySinh,DiaChi, GioiTinh,Luong,ChucVu,CCCD,SDT,Email,"DaXoa") VALUES (N'NV006', N'Demo employee 10', '19900101', N'Demo address 10', N'N/A', 0, N'Staff', N'DEMO-NV-0010', N'DEMO000010', N'employee10@example.invalid', 0);
-INSERT INTO NhanVien (MaNV,TenNV,NgaySinh,DiaChi, GioiTinh,Luong,ChucVu,CCCD,SDT,Email,"DaXoa") VALUES (N'NV007', N'Demo employee 11', '19900101', N'Demo address 11', N'N/A', 0, N'Staff', N'DEMO-NV-0011', N'DEMO000011', N'employee11@example.invalid', 0);
+INSERT INTO NhanVien (MaNV,TenNV,NgaySinh,DiaChi, GioiTinh,Luong,ChucVu,CCCD,SDT,Email,"DaXoa") VALUES ('AD001',N'Nguyễn Phúc Bình', '30/09/2003', N'Đường Hàn Thuyên, khu phố 6, Thủ Đức, Thành phố Hồ Chí Minh', N'Nam','40000000',N'Quản lý', '072000001212','0907219273','21520638@gm.uit.edu.vn',0)
+INSERT INTO NhanVien (MaNV,TenNV,NgaySinh,DiaChi, GioiTinh,Luong,ChucVu,CCCD,SDT,Email,"DaXoa") VALUES ('AD002',N'Phan Tuấn Thành', '11/10/2003',N'Đường Hàn Thuyên, khu phố 6, Thủ Đức, Thành phố Hồ Chí Minh', N'Nam','45000000',N'Quản lý', '072000001213','071223431','21520455@gm.uit.edu.vn',0)
+INSERT INTO NhanVien (MaNV,TenNV,NgaySinh,DiaChi, GioiTinh,Luong,ChucVu,CCCD,SDT,Email,"DaXoa") VALUES ('AD003',N'Lê Thanh Tuấn', '10/06/1989', N'Đường Hàn Thuyên, khu phố 6, Thủ Đức, Thành phố Hồ Chí Minh', N'Nam','50000000',N'Quản lý', '072000001214','010311231','21520519@gm.uit.edu.vn',0)
+INSERT INTO NhanVien (MaNV,TenNV,NgaySinh,DiaChi, GioiTinh,Luong,ChucVu,CCCD,SDT,Email,"DaXoa") VALUES ('QL001',N'Phạm Thị A', '09/03/1995',N'Đường Hàn Thuyên, khu phố 6, Thủ Đức, Thành phố Hồ Chí Minh', N'Nữ','5500000',N'Tiếp tân', '072000001215','095411231','NV215235119@gmail.com',0)
+INSERT INTO NhanVien (MaNV,TenNV,NgaySinh,DiaChi, GioiTinh,Luong,ChucVu,CCCD,SDT,Email,"DaXoa") VALUES ('NV001',N'Trần Thị B', '23/01/1993',N'Đường Hàn Thuyên, khu phố 6, Thủ Đức, Thành phố Hồ Chí Minh', N'Nữ','5500000',N'Tiếp tân', '072000001217','091311231','NV545205119@gmail.com',0)
+INSERT INTO NhanVien (MaNV,TenNV,NgaySinh,DiaChi, GioiTinh,Luong,ChucVu,CCCD,SDT,Email,"DaXoa") VALUES ('NV002',N'Nguyễn Phuc C ', '21/11/1986',N'Đường Hàn Thuyên, khu phố 6, Thủ Đức, Thành phố Hồ Chí Minh', N'Nam','5500000',N'Tiếp tân', '072000001220','092311231','NV6152051@gmail.com',0)
+INSERT INTO NhanVien (MaNV,TenNV,NgaySinh,DiaChi, GioiTinh,Luong,ChucVu,CCCD,SDT,Email,"DaXoa") VALUES ('NV003',N'Lê Văn D', '05/7/1990',N'Đường Hàn Thuyên, khu phố 6, Thủ Đức, Thành phố Hồ Chí Minh', N'Nam','5500000',N'Tiếp tân', '072000001221','090317231','NV2152119@gmail.com',0)
+INSERT INTO NhanVien (MaNV,TenNV,NgaySinh,DiaChi, GioiTinh,Luong,ChucVu,CCCD,SDT,Email,"DaXoa") VALUES ('NV004',N'Hồ Văn E', '27/10/2000',N'Đường Hàn Thuyên, khu phố 6, Thủ Đức, Thành phố Hồ Chí Minh', N'Nam','5500000',N'Bảo vệ', '072000001282','090312231','NV715205119@gmail.com',0)
+INSERT INTO NhanVien (MaNV,TenNV,NgaySinh,DiaChi, GioiTinh,Luong,ChucVu,CCCD,SDT,Email,"DaXoa") VALUES ('NV005',N'Nguyễn Văn F', '24/02/1998',N'Đường Hàn Thuyên, khu phố 6, Thủ Đức, Thành phố Hồ Chí Minh', N'Nam','5500000',N'Nhân viên vệ sinh', '072000009012','090111231','NV52015119@gmail.com',0)
+INSERT INTO NhanVien (MaNV,TenNV,NgaySinh,DiaChi, GioiTinh,Luong,ChucVu,CCCD,SDT,Email,"DaXoa") VALUES ('NV006',N'Phạm Thị P', '02/08/2001',N'Đường Hàn Thuyên, khu phố 6, Thủ Đức, Thành phố Hồ Chí Minh', N'Nữ','5500000',N'Nhân viên vệ sinh', '072000002134','090311232','NV15205119@gmail.com',0)
+INSERT INTO NhanVien (MaNV,TenNV,NgaySinh,DiaChi, GioiTinh,Luong,ChucVu,CCCD,SDT,Email,"DaXoa") VALUES ('NV007',N'Nguyễn Văn G', '12/09/2002',N'Đường Hàn Thuyên, khu phố 6, Thủ Đức, Thành phố Hồ Chí Minh', N'Nam','5500000',N'Bảo vệ', '072000028912','090311233','NV215595119@gmail.com',0)
 
 -- Tai Khoan
 	
--- Set @DemoPassword in a local copy before running this script to create the demo login.
-DECLARE @DemoPassword NVARCHAR(1000) = NULL;
-IF NULLIF(@DemoPassword, N'') IS NOT NULL
-    INSERT INTO TaiKhoan (TenTK, Password, MaNV, CapDoQuyen)
-    VALUES (N'demo-admin', @DemoPassword, N'AD001', 3);
+	INSERT INTO TaiKhoan (TenTK,Password,MaNV,"CapDoQuyen") VALUES ('admin','1234','AD001',3) 
+	INSERT INTO TaiKhoan (TenTK,Password,MaNV,"CapDoQuyen") VALUES ('admin1','1234','AD002',3) 
+	INSERT INTO TaiKhoan (TenTK,Password,MaNV,"CapDoQuyen") VALUES ('admin2','1234','AD003',3) 
+	INSERT INTO TaiKhoan (TenTK,Password,MaNV,"CapDoQuyen") VALUES ('Quanly','1234','QL001',2) 
+	INSERT INTO TaiKhoan (TenTK,Password,MaNV,"CapDoQuyen") VALUES ('NhanVien','1234','NV001',1) 
 
 -- Khach Hang
-	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES (N'KH001', N'Demo guest 1', N'N/A', N'Vietnam', N'DEMO-KH-0001', NULL, 0);
-	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES (N'KH002', N'Demo guest 2', N'N/A', N'Vietnam', N'DEMO-KH-0002', NULL, 0);
-	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES (N'KH003', N'Demo guest 3', N'N/A', N'Vietnam', N'DEMO-KH-0003', NULL, 0);
-	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES (N'KH004', N'Demo guest 4', N'N/A', N'Vietnam', N'DEMO-KH-0004', NULL, 0);
-	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES (N'KH005', N'Demo guest 5', N'N/A', N'Vietnam', N'DEMO-KH-0005', NULL, 0);
-	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES (N'KH006', N'Demo guest 6', N'N/A', N'Vietnam', N'DEMO-KH-0006', NULL, 0);
-	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES (N'KH007', N'Demo guest 7', N'N/A', N'Vietnam', N'DEMO-KH-0007', NULL, 0);
-	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES (N'KH008', N'Demo guest 8', N'N/A', N'Vietnam', N'DEMO-KH-0008', NULL, 0);
-	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES (N'KH009', N'Demo guest 9', N'N/A', N'Vietnam', N'DEMO-KH-0009', NULL, 0);
-	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES (N'KH010', N'Demo guest 10', N'N/A', N'Vietnam', N'DEMO-KH-0010', NULL, 0);
-	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES (N'KH011', N'Demo guest 11', N'N/A', N'Vietnam', N'DEMO-KH-0011', NULL, 0);
-	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES (N'KH012', N'Demo guest 12', N'N/A', N'Vietnam', N'DEMO-KH-0012', NULL, 0);
+	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES ('KH001',N'Nguyễn Văn A', N'Nam', N'Việt Nam', '072001056912', '092391233',0)
+	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES ('KH002',N'Nguyễn Văn B', N'Nam', N'Việt Nam', '072001056913', '092391234',0)
+	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES ('KH003',N'Nguyễn Văn C', N'Nam', N'Việt Nam', '072001056914', '092391235',0)
+	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES ('KH004',N'Phạm Thi P', N'Nữ', N'Việt Nam', '072001546231', '092361213',0)
+	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES ('KH005',N'Phạm Thi G', N'Nữ', N'Việt Nam', '072001012231', '082361233',0)
+	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES ('KH006',N'Nguyễn Văn D', N'Nam', N'Việt Nam', '072001056952', '092391236',0)
+	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES ('KH007',N'Nguyễn Văn E', N'Nam', N'Việt Nam', '072001056911', '092391237',0)
+	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES ('KH008',N'Phạm Thi H', N'Nữ', N'Việt Nam', '072001078231', '096361233',0)
+	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES ('KH009',N'Nguyễn Văn F', N'Nam', N'Việt Nam', '072001056976', '092391238',0)
+	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES ('KH010',N'Nguyễn Văn G', N'Nam', N'Việt Nam', '072001056919', '092391229',0)
+	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES ('KH011',N'Phạm Thi U', N'Nữ', N'Việt Nam', '072071756231', '071236123',0)
+	INSERT INTO KhachHang (MaKH,TenKH, GioiTinh, QuocTich, "CCCD/Passport", SDT, "DaXoa") VALUES ('KH012',N'Phạm Thi T', N'Nữ', N'Việt Nam', '072041056231', '022361233',0)
 -- Dich Vu
 	INSERT INTO DiCHVU (MaDV,"TenDV",LoaiDV,"SLConLai",DonGia,"DaXoa") VALUES ('DV01', N'Nước suối', N'Thức uống', '100','10000',0)
 	INSERT INTO DiCHVU (MaDV,"TenDV",LoaiDV,"SLConLai",DonGia,"DaXoa") VALUES ('DV02', N'Coca cola', N'Thức uống', '100','15000',0)
@@ -283,7 +283,7 @@ IF NULLIF(@DemoPassword, N'') IS NOT NULL
 	INSERT INTO PHONG ("MaPH", "MaLPH", "TTPH", "TTDD","DaXoa") VALUES ('P101', 'NOR01', N'Bình thường', N'Đã dọn dẹp',0)
 	INSERT INTO PHONG ("MaPH", "MaLPH", "TTPH", "TTDD","DaXoa") VALUES ('P102', 'NOR01', N'Bình thường', N'Đã dọn dẹp',0)
 	INSERT INTO PHONG ("MaPH", "MaLPH", "TTPH", "TTDD","DaXoa") VALUES ('P103', 'NOR02', N'Bình thường', N'Chưa dọn dẹp',0)
-	INSERT INTO PHONG ("MaPH", "MaLPH", "TTPH", "TTDD", "GhiChu","DaXoa") VALUES ('P104', 'NOR01', N'Đang sửa chữa', N'Đã dọn dẹp', NULL, 0)
+	INSERT INTO PHONG ("MaPH", "MaLPH", "TTPH", "TTDD", "GhiChu","DaXoa") VALUES ('P104', 'NOR01', N'Đang sửa chữa', N'Đã dọn dẹp', N'Hư điều hòa',0)
 	INSERT INTO PHONG ("MaPH", "MaLPH", "TTPH", "TTDD","DaXoa") VALUES ('P105', 'NOR02', N'Bình thường', N'Đã dọn dẹp',0)
 	INSERT INTO PHONG ("MaPH", "MaLPH", "TTPH", "TTDD","DaXoa") VALUES ('P106', 'VIP01', N'Bình thường', N'Đã dọn dẹp',0)
 	INSERT INTO PHONG ("MaPH", "MaLPH", "TTPH", "TTDD","DaXoa") VALUES ('P201', 'NOR02', N'Bình thường', N'Chưa dọn dẹp',0)
